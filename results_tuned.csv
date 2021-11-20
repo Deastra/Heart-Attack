@@ -1,0 +1,10 @@
+,model,accuracy_score,precision_score,recall_score,auc_roc_score,best_score,best_params
+0,KNN,0.8333,0.8485,0.8485,0.8316,0.750177304964539,"{'algorithm': 'auto', 'leaf_size': 5, 'n_neighbors': 3, 'weights': 'distance'}"
+1,Bayes,0.85,0.7879,0.9286,0.8549,0.8009751773049645,{}
+2,Support Vector Machine,0.9333,0.9697,0.9143,0.9371,0.7965425531914894,"{'C': 4, 'kernel': 'linear'}"
+3,Logistic Regression,0.8167,0.8788,0.8056,0.8194,0.8347517730496454,"{'C': 2, 'fit_intercept': True, 'penalty': 'l1', 'solver': 'liblinear'}"
+4,Random Forest Classifier,0.8167,0.8485,0.8235,0.8156,0.8054964539007091,"{'criterion': 'gini', 'n_estimators': 11, 'verbose': 1}"
+5,Decision Tree Classifier,0.8833,0.8485,0.9333,0.8833,0.7414007092198581,"{'criterion': 'entropy', 'splitter': 'random'}"
+6,Ada Boost Classifier,0.7833,0.7576,0.8333,0.7833,0.8603723404255318,"{'algorithm': 'SAMME', 'n_estimators': 40}"
+7,Gradient Boosting Classifier,0.7667,0.8182,0.7714,0.7657,0.8055851063829786,"{'criterion': 'friedman_mse', 'learning_rate': 0.3, 'n_estimators': 95}"
+8,XGBoost Classifier,0.8,0.7879,0.8387,0.7987,0.8562056737588654,"{'eta': 0.7, 'gamma': 1, 'max_depth': 1}"

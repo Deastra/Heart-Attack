@@ -1,0 +1,11 @@
+,model,test_score
+0,KNeighborsClassifier,0.8333333333333334
+1,RandomForestClassifier,0.9166666666666666
+2,SVC,0.7666666666666667
+3,DecisionTreeClassifier,0.8333333333333334
+4,LogisticRegression,0.9166666666666666
+5,GaussianNB,0.95
+6,AdaBoostClassifier,0.8833333333333333
+7,GradientBoostingClassifier,0.8333333333333334
+8,XGBClassifier,0.9
+9,LinearSVC,0.65

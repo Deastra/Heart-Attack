@@ -1,0 +1,10 @@
+,model,accuracy_score,precision_score,recall_score,auc_roc_score,best_score,best_params
+0,Logistic Regression,0.8167,0.9394,0.775,0.8375,0.8513297872340425,"{'C': 4, 'penalty': 'l2', 'solver': 'lbfgs'}"
+1,Random Forest Classifier,0.8,0.8485,0.8,0.8,0.8388297872340426,{'n_estimators': 39}
+2,Decision Tree Classifier,0.75,0.7576,0.7812,0.7478,0.7499113475177305,{'criterion': 'entropy'}
+3,Support Vector Machine,0.8167,0.9091,0.7895,0.8266,0.8470744680851064,"{'C': 0.5, 'kernel': 'linear'}"
+4,Ada Boost Classifier,0.8333,0.8485,0.8485,0.8316,0.8175531914893617,"{'algorithm': 'SAMME', 'n_estimators': 57}"
+5,Gradient Boosting Classifier,0.8,0.8182,0.8182,0.798,0.800709219858156,"{'criterion': 'mse', 'n_estimators': 100}"
+6,XGBoost Classifier,0.8167,0.8788,0.8056,0.8194,0.838741134751773,"{'gamma': 2, 'max_depth': 1}"
+7,KNN,0.75,0.8485,0.7368,0.7548,0.7838652482269504,"{'algorithm': 'auto', 'leaf_size': 10, 'n_neighbors': 4, 'weights': 'distance'}"
+8,Bayes,0.7667,0.8182,0.7714,0.7657,0.8092198581560284,{}
